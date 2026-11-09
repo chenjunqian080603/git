@@ -1,0 +1,18 @@
+# Normalize text files to LF on checkout
+* text=auto
+
+# Common text formats
+*.md text
+*.txt text
+*.yml text
+*.yaml text
+*.json text
+*.js text
+*.ts text
+*.css text
+*.html text
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
